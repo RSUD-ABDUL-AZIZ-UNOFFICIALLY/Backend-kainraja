@@ -1,8 +1,96 @@
 {
-    "id": 1,
-    "name": " Tata Tertib Bagi Pasien ",
+    "name": "TATA TERTIB DAN WAKTU BERKUNJUNG RSUD dr. ABDUL AZIZ  KOTA SINGKAWANG",
     "desc": [
-        "Setiap Pasien rawat jalan/Poliklinik hanya diizinkan diantar oleh 1 (satu) orang pengantar, kecuali Pasien dengan keterbatasan fisik dapat diantar oleh 2 (dua) pengantar",
-        "Setiap Pasien rawat inap hanya diperbolehkan ditunggu oleh 2 (dua) penunggu termasuk Pasien anak, Pasien kritis, Pasien gawat, dan Pasien pasca operasi"
+        {
+            "title": "Tata Tertib Umum",
+            "desc": [
+                "Setiap Pasien, Penunggu Pasien, Pengantar Pasien, Pengunjung Pasien dan Tamu di RSUD dr. Abdul Aziz Kota Singkawang wajib memenuhi ketentuan sebagai berikut :",
+                {
+                    "desc": [
+                        "1. Menjaga ketertiban dan kebersihan di lingkungan RSUD dr. Abdul Aziz Kota Singkawang.",
+                        "2. Dalam kondisi sehat jasmani dan rohani dan mematuhi protokol kesehatan.",
+                        "3. Dilarang membawa barang berharga berupa perhiasan (berlian, emas dan lain-lain), perlengkapan tidur, ember dan barang lainnya yang tidak dapat masuk ke dalam lemari pasien. RSUD dr. Abdul Aziz Kota Singkawang tidak bertanggung jawab atas kehilangan maupun kerusakan barang-barang tersebut.",
+                        "4. Dilarang membawa dan menggunakan barang elektronik untuk keperluan pribadi di RSUD dr. Abdul Aziz Kota Singkawang berupa hairdryer, kompor listrik, pemanas air, rice cooker dan lain-lain karena berpotensi terjadi kebakaran dan/atau kehilangan. RSUD dr. Abdul Aziz Kota Singkawang tidak bertanggung jawab atas kehilangan maupun kerusakan barang-barang tersebut.",
+                        "5. Dilarang membawa senjata tajam, senjata api dan lain-lain yang bersifat membahayakan.",
+                        "6. Dilarang merokok dan/atau mengkonsumsi narkoba dan/atau alkohol di lingkungan RSUD dr. Abdul Aziz Kota Singkawang.",
+                        "7. Dilarang mengambil gambar berupa foto/video pasien/pegawai Rumah Sakit tanpa seizin petugas RSUD dr. Abdul Aziz Kota Singkawang dan dilarang menyebarluaskan gambar tersebut ke media sosial.",
+                        "8. Dilarang mengajak anak usia di bawah 10 (sepuluh) tahun masuk area pelayanan rumah sakit kecuali atas sebab yang diperbolehkan berdasarkan Keputusan Direktur ini."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tata Tertib Khusus",
+            "desc": [
+                {
+                    "title": "1. Tata Tertib Bagi Pasien :",
+                    "desc": [
+                        "Setiap Pasien rawat jalan/Poliklinik hanya diizinkan diantar oleh 1 (satu) orang pengantar, kecuali Pasien dengan keterbatasan fisik dapat diantar oleh 2 (dua) pengantar.",
+                        "Setiap Pasien rawat inap hanya diperbolehkan ditunggu oleh 2 (dua) penunggu termasuk Pasien anak, Pasien kritis, Pasien gawat, dan Pasien pasca operasi."
+                    ]
+                },
+                {
+                    "title": "2. Tata Tertib Bagi Penunggu Pasien",
+                    "desc": [
+                        {
+                            "title": "Ketentuan bagi Penunggu Pasien rawat inap :",
+                            "desc": [
+                                "Jumlah maksimal Penunggu Pasien untuk tiap-tiap Pasien adalah 2 (dua) orang penunggu.",
+                                "Penunggu Pasien memiliki kartu tunggu yang diberikan langsung di ruang rawat inap setempat ketika Pasien sudah masuk ruang perawatan.",
+                                "Penunggu Pasien dilarang keluar masuk lingkungan RSUD dr. Abdul Aziz Kota Singkawang, kecuali hanya untuk kepentingan pasien yang ditunggu.",
+                                "Pergantian penunggu Pasien harus dilaporkan kepada Perawat Jaga dan Satuan Pengamanan."
+                            ]
+                        },
+                        {
+                            "title": "Ketentuan bagi Penunggu Pasien yang menjalani tindakan di ruang operasi :",
+                            "desc": [
+                                "Jumlah Penunggu Pasien yang menjalani tindakan di ruang operasi adalah maksimal 2 (dua) orang penunggu.",
+                                "Penunggu Pasien tidak diperkenankan masuk ke ruang operasi selama tindakan operasi dilakukan.",
+                                "Penunggu Pasien menunggu di ruang tunggu operasi yang telah disediakan."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "3. Tata Tertib Bagi Pengunjung Pasien:",
+                    "desc": [
+                        {
+                            "title": "Pintu masuk pengunjung Pasien :",
+                            "desc": [
+                                "Pengunjung Pasien rawat inap masuk dan keluar area Rumah Sakit melalui pintu utama (loby).",
+                                "Pengunjung Pasien rawat inap di VIP masuk dan keluar melalui pintu masuk jalur VIP."
+                            ]
+                        },
+                        {
+                            "title": "Ketentuan waktu berkunjung Pasien rawat inap adalah :",
+                            "desc": [
+                                "Pagi : Pukul 11.00 s/d 13.00 WIB",
+                                "Sore : Pukul 17.00 s/d 19.00 WIB",
+                                "Khusus untuk ruangan Isolasi, ICU/ICCU, NICU/Perinatologi dan Kamar Bersalin tidak diperbolehkan untuk dikunjungi, kecuali penunggu pasien.",
+                                "Jumlah maksimal Pengunjung untuk tiap-tiap Pasien adalah 2 (dua) orang.",
+                                "Pengunjung yang merupakan anak di bawah usia 10 tahun tidak diizinkan masuk ke ruang perawatan, kecuali mengunjungi Pasien yang dalam keadaan kritis yang memiliki hubungan keluarga sampai derajat kedua (ayah, ibu, kakek, nenek, kakak, dan adik kandung) dan mendapat izin dari dokter/perawat ruangan setempat",
+                                "Pengunjung dilarang berkunjung diluar waktu berkunjung, kecuali ada situasi tertentu dengan menitipkan Kartu identitas  (KTP) disatpam dan menggunakan kartu pengunjung diluar jam kunjung.",
+                                "Pengunjung dilarang membawa karangan bunga ke ruang perawatan untuk mencegah terjadinya penyebaran infeksi terhadap Pasien.",
+                                "Pengunjung dilarang menggunakan kamar mandi/toilet Pasien."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "4. Tata Tertib bagi Pengantar Pasien",
+                    "desc": [
+                        "Jumlah maksimal Pengantar Pasien untuk tiap-tiap Pasien adalah 2 (dua) orang pengantar, termasuk pasien dengan keterbatasan gerak, Paien lanjut usia dan Pasien anak-anak.",
+                        "Setelah Pasien selesai menjalani pelayanan kesehatan yang diperlukan, Pengantar Pasien harus mengembalikan prasarana Rumah Sakit (kursi roda, bed, dan lain-lain) yang dipinjam untuk keperluan Pasien ke tempat semula."
+                    ]
+                },
+                {
+                    "title": "5. Tata Tertib bagi Tamu Rumah Sakit",
+                    "desc": [
+                        "Tamu tidak diperbolehkan memasuki ruang kerja Pegawai kecuali mendapat izin dari pimpinan ruangan terkait.",
+                        "Tamu hanya diperbolehkan mengunjungi area/ruangan sesuai dengan keperluannya."
+                    ]
+                }
+            ]
+        }
     ]
 }
