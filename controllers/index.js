@@ -13,13 +13,13 @@ module.exports = {
 
     return res.status(200).json({
       status: true,
-      message: "Hak Pasien",
+      message: "success",
       data: data
     });
     } catch (err) {
       return res.status(404).json({
         status: false,
-        message: "Url tidak ditemukan",
+        message: "url tidak ditemukan",
         data: null
       });
     }
