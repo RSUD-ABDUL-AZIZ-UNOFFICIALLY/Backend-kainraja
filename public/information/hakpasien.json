@@ -1,8 +1,42 @@
 {
-    "name": "Hak Pasien dan Keluarga",
-    "title": "Hak Pasien dan Keluarga",
+    "name": "HAK DAN KEWAJIBAN PASIEN",
+    "title": "HAK DAN KEWAJIBAN PASIEN",
     "desc": [
-        "Setiap Pasien rawat jalan/Poliklinik hanya diizinkan diantar oleh 1 (satu) orang pengantar, kecuali Pasien dengan keterbatasan fisik dapat diantar oleh 2 (dua) pengantar",
-        "Setiap Pasien rawat inap hanya diperbolehkan ditunggu oleh 2 (dua) penunggu termasuk Pasien anak, Pasien kritis, Pasien gawat, dan Pasien pasca operasi"
+        {
+            "title": "HAK PASIEN",
+            "desc": [
+                "1. Memperoleh informasi mengenai tata tertib dan peraturan yang berlaku di rumah sakit.",
+                "2. Memperoleh informasi tentang hak dan kewajiban pasien.",
+                "3. Memperoleh layanan yang manusiawi, adil, jujur dan tapa diskriminasi.",
+                "4. Memperoleh layanan kesehatan yang bermutu sesuai dengan standar profesi dan standar presedur operasional.",
+                "5. Memperoleh layanan yang efektif dan efisien sehingga pasien terhindar dari kerugian fisik dan materi.",
+                "6. Mengajukan pengaduan atas kualitas pelayanan yang didapatkan.",
+                "7. Memilih dokter dan kelas perawatan sesuai dengan keinginannya dan peraturan yang berlaku di rumah sakit.",
+                "8. Meminta konsultasi tentang penyakit yang dideritanya kepada dokter lain yang mempunyai surat izin praktik (SIP) baik di dalam maupun di luar rumah sakit.",
+                "9. Mendapat privasi dan kerahasian penyakit yang diderita termasuk data medisnya.",
+                "10. Mendapat informasi yang meliputi diagnosis dan tata cara tindakan medis, tujuan tindakan medis, alternatif tindakan, resiko dan komplikasi yang mungkin terjadi dan prognosis terhadap tindakan yang dilakukan serta perkiraan biaya pengobatan.",
+                "11. Memberikan persetujuan atau menolak atas tindakan yang akan dilakukan oleh tenaga kesehatan terhadap penyakit yang dideritanya.",
+                "12. Didampingi keluarganya dalam keadaan kritis.",
+                "13. Menjalankan ibadah sesuai agama atau kepercayaan yang dianutnya selama itu tidak mengganggu pasien lain.",
+                "14. Memperoleh keamanan dan keselamatan dirinya selama dalam perawatan di RSUD.",
+                "15. Mengajukan usul, saran, perbaikan atau pengaduan terhadap pelayanan rumah sakit terhadap dirinya.",
+                "16. Menolak pelayanan bimbingan rohani yang tidak sesuai dengan agama dan kepercayaan yang dianutnya.",
+                "17. Menggugat atau menuntut rumah sakit apabila rumah sakit diduga memberikan pelayanan yang tidak sesuai dengan ketentuan peraturan perundang-undangan.",
+                "18. Mengeluhkan pelayanan rumah sakit yang tidak sesuai dengan standar pelayanan melalui media cetak dan elektronika sesuai dengan ketentuan peraturan perundang-undangan."
+            ]
+        },
+        {
+            "title": "KEWAJIBAN PASIEN",
+            "desc": [
+                "1. Mematuhi peraturan yang berlaku di rumah sakit.",
+                "2. Menggunakan fasilitas rumah sakit secara bertanggung jawab.",
+                "3. Menghormati hak-hak pasien lain, pengunjung dan hak tenaga kesehatan serta petugas lainnya yang bekerja di rumah sakit.",
+                "4. Memberikan informasi yang jujur, lengkap dan akurat sesuai kemampuan dan pengetahuannya tentang masalah kesehatannya.",
+                "5. Memberikan informasi mengenai kemampuan finansial dan jaminan kesehatan yang dimilikinya.",
+                "6. Mematuhi rencana therapy yang direkomendasikan oleh tenaga kesehatan dirumah sakit dan disetujui oleh pasien yang bersangkutan setelah mendapatkan penjelasan sesuai ketentuan peraturan perundang-undangan.",
+                "7. Menerima segala konsekuensi atas keputusan pribadinya untuk menolak rencana terapi yang direkomendasikan oleh tenaga kesehatan dalam rangka penyembuhan penyakit atau masalah kesehatannya.",
+                "8. Memberikan imbalan jasa atas pelayanan yang diterima."
+            ]
+        }
     ]
 }
