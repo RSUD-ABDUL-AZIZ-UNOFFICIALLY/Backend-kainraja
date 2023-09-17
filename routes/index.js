@@ -9,6 +9,6 @@ routes.get('/poli/jadwal', base.getJadwalPoli);
 
 routes.get('/penunjang/jnslab', base.getJnslab);
 routes.get('/penunjang/jnslab/:id', base.getDetailLab);
-routes.get('/penunjang/jnslab', base.getDetailLab);
+routes.get('/penunjang/getjnsradiaologi', base.getJnsradiaologi);
 
 module.exports = routes;
