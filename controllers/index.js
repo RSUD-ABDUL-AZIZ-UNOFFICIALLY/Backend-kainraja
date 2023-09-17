@@ -84,5 +84,58 @@ module.exports = {
       });
     }
   },
+  getJnslab: async (req, res) => {
+    let search = req.query.search;
+    console.log(search);
+    if (search == undefined || search == "") {
+      try {
+        let data = await api('/api/penunjang/jnslab?limit=100&search=', 'GET');
+        return res.status(200).json({
+          status: true,
+          message: "success",
+          data: data.data
+        });
+      } catch (err) {
+        return res.status(500).json({
+          status: false,
+          message: "server Error",
+          data: err.message
+        });
+      }
+    } else {
+      try {
+        let data = await api('/api/penunjang/cariLab?search=' + search, 'GET');
+        return res.status(200).json({
+          status: true,
+          message: "success",
+          data: data.data
+        });
+      } catch (err) {
+        return res.status(500).json({
+          status: false,
+          message: "server Error",
+          data: err.message
+        });
+      }
+    }
+  },
+  getDetailLab: async (req, res) => {
+    try {
+      let id = req.params.id;
+      let data = await api('/api/penunjang/jnslab/' + id, 'GET');
+      console.log(data);
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: data.data
+      });
+    } catch (err) {
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
+  }
 
 };
