@@ -153,6 +153,26 @@ module.exports = {
         data: err.message
       });
     }
+  },
+  getMedia: async (req, res) => {
+    let get = req.params.id;
+    console.log(get);
+    try {
+      let data = fs.readFileSync(path.join(__dirname, "../public/media/" + get + ".json"));
+      data = JSON.parse(data);
+
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: data
+      });
+    } catch (err) {
+      return res.status(404).json({
+        status: false,
+        message: "url tidak ditemukan",
+        data: null
+      });
+    }
   }
 
 };

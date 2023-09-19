@@ -1,0 +1,117 @@
+{
+    "status": true,
+    "message": "success",
+    "data": [
+        {
+            "title": "Profil Layanan Hak & Kewajiban",
+            "description": "",
+            "image": "",
+            "video": "https://api.rsudaa.singkawangkota.go.id/api/cdn/video/1694938447690-326387246abdulazizprofillayananhak&kewajibanMP4.mp4",
+            "images": [],
+            "urut": 0
+        },
+        {
+            "title": "Profil Layanan Pengobatan TB Paru & Pencegahan Pengendalian Infeksi",
+            "description": "",
+            "image": "",
+            "video": "https://api.rsudaa.singkawangkota.go.id/api/cdn/video/1695110132564-897278514TBPARU.mp4",
+            "images": [],
+            "urut": 1
+        },
+        {
+            "title": "Cek Kesehatan Secara Rutin",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695110803601-Screenshot2023-09-19at15.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695110870853-edukasi1lengkap_fix_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Enyahkan Asap Rokok",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111166581-Screenshot2023-09-19at15.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111230766-edukasi2lengkap_fix_page-0002.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111257890-edukasi2lengkap_fix_page-0003.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111279976-edukasi2lengkap_fix_page-0004.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Rajin",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111516525-Screenshot2023-09-19at15.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111557377-EDUKASI3LENGKAP_FIX_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Diet Seimbang",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111610835-Screenshot2023-09-19at15.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111659534-edukasi4lengkap_fix_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Istirahat Cukup",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111799370-Screenshot2023-09-19at15.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111842414-EDUKASI5lengkap_fix_page-0002.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111867485-EDUKASI5lengkap_fix_page-0003.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695111889222-EDUKASI5lengkap_fix_page-0004.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Kelola Stres",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112255466-Screenshot2023-09-19at15.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112290221-edukasi6_lengkap_fix_page-0002.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112333703-edukasi6_lengkap_fix_page-0003.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Waspada Difteri",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112041043-edukasi7lengkap_fix_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112041043-edukasi7lengkap_fix_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112079812-edukasi7lengkap_fix_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Pemberian Suplemntasi Gizi",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112459314-EDUKASI8lengkap_fix_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112459314-EDUKASI8lengkap_fix_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112534319-EDUKASI8lengkap_fix_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "",
+            "description": "",
+            "image": "",
+            "video": "",
+            "images": [],
+            "urut": 1
+        }
+    ]
+}
