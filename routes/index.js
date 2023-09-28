@@ -13,5 +13,6 @@ routes.get('/penunjang/jnslab/:id', base.getDetailLab);
 routes.get('/penunjang/getjnsradiaologi', base.getJnsradiaologi);
 
 routes.get('/media/:id', base.getMedia);
+routes.get('/maps', base.getMaps);
 
 module.exports = routes;
