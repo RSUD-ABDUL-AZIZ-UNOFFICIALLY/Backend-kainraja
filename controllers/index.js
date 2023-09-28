@@ -173,6 +173,22 @@ module.exports = {
         data: null
       });
     }
+  },
+  getMaps: async (req, res) => {
+    try {
+      let data = fs.readFileSync(path.join(__dirname, "../public/maps/index.json"));
+      data = JSON.parse(data);
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: data
+      });
+    } catch (err) {
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
   }
-
 };
