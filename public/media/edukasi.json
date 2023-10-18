@@ -11,6 +11,22 @@
             "urut": 0
         },
         {
+            "title": "Edukasi Pengolahan Makanan Cair",
+            "description": "",
+            "image": "",
+            "video": "https://api.rsudaa.singkawangkota.go.id/api/cdn/video/1697596850335-1659188EdukasiPengolahanMakananCair.mp4",
+            "images": [],
+            "urut": 1
+        },
+        {
+            "title": "Etika Batuk",
+            "description": "",
+            "image": "",
+            "video": "https://api.rsudaa.singkawangkota.go.id/api/cdn/video/1697596382400-797717892etikabatuk.mp4",
+            "images": [],
+            "urut": 1
+        },
+        {
             "title": "Profil Layanan Pengobatan TB Paru & Pencegahan Pengendalian Infeksi",
             "description": "",
             "image": "",
