@@ -6,6 +6,7 @@ const base = require('../controllers');
 routes.get('/umum/:id', base.hakpasien);
 
 routes.get('/poli/all', base.getPoli);
+routes.get('/poli/bydr', base.getPolidr);
 routes.get('/poli/jadwal', base.getJadwalPoli);
 
 routes.get('/penunjang/jnslab', base.getJnslab);

@@ -21,7 +21,7 @@ async function api(path, method, data) {
       data: data
     };
     let response = await axios(config);
-    console.log(response);
+    // console.log(response);
     return response.data;
   } catch (err) {
     return null;
@@ -57,6 +57,22 @@ module.exports = {
         status: true,
         message: "success",
         data: data.data
+      });
+    } catch (err) {
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
+  },
+  getPolidr: async (req, res) => {
+    try {
+      let data = await api('/api/ralan/drpoli', 'GET');
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: data
       });
     } catch (err) {
       return res.status(500).json({
