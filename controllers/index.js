@@ -27,6 +27,23 @@ async function api(path, method, data) {
     return null;
   }
 }
+async function apiLPKP(nik) {
+  let natanik = jwt.sign(nik, process.env.JWT_SECRET_KEY_LPKP);
+  try {
+    let config = {
+      method: 'GET',
+      url: process.env.HOST_API_LPKP + '?nik=' + natanik,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+    let response = await axios(config);
+    // console.log(response);
+    return response.data;
+  } catch (err) {
+    return null;
+  }
+}
 
 module.exports = {
   hakpasien: async (req, res) => {
@@ -87,6 +104,34 @@ module.exports = {
       let query = req.query;
       let data = await api('/api/ralan/jadwal?kd_poli=' + query.kd_poli, 'GET');
       console.log(data);
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: data.data
+      });
+    } catch (err) {
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
+  },
+  getJadwalPolidr: async (req, res) => {
+    try {
+      let query = req.query;
+      let data = await api('/api/ralan/jadwal/bydr?kd_poli=' + query.kd_poli, 'GET');
+      // console.log(data);
+      for (let i = 0; i < data.data.length; i++) {
+        let dataLPKP = await apiLPKP(data.data[i].no_ktp);
+        // data.data[i].url = dataLPKP.data.url;
+        if (dataLPKP == null) {
+          data.data[i].url = null;
+        }else{
+          data.data[i].url = dataLPKP.data.url;
+        }
+    
+      }
       return res.status(200).json({
         status: true,
         message: "success",

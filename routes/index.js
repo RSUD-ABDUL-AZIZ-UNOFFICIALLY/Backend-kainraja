@@ -8,6 +8,7 @@ routes.get('/umum/:id', base.hakpasien);
 routes.get('/poli/all', base.getPoli);
 routes.get('/poli/bydr', base.getPolidr);
 routes.get('/poli/jadwal', base.getJadwalPoli);
+routes.get('/poli/drjadwal', base.getJadwalPolidr);
 
 routes.get('/penunjang/jnslab', base.getJnslab);
 routes.get('/penunjang/jnslab/:id', base.getDetailLab);
