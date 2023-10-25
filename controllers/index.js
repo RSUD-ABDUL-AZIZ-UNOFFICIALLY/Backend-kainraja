@@ -215,6 +215,24 @@ module.exports = {
       });
     }
   },
+  getTindakan: async (req, res) => {
+    try {
+      let search = req.query.search;
+      let data = await api('/api/penunjang/tariftind/?limit=10&search=' + search, 'GET');
+      console.log(data);
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: data.data
+      });
+    } catch (err) {
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
+  },
   getMedia: async (req, res) => {
     let get = req.params.id;
     console.log(get);
