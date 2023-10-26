@@ -239,21 +239,21 @@ module.exports = {
       data = JSON.parse(data);
       const foundLocations = findByNameCharacter(data, req.query.search);
       function findByNameCharacter(data, character) {
-        const foundLocations = [];
-    
+        const foundData = [];
+
         for (const item of data) {
-            for (const location of item.lokasi) {
-                const nama = location.nama;
-                if (nama.includes(character)) {
-                    foundLocations.push(location);
-                }
+          for (const location of item.lokasi) {
+            const namaLokasi = location.nama.toLowerCase(); // Konversi nama lokasi menjadi huruf kecil
+            const characterLowerCase = character.toLowerCase(); // Konversi karakter yang dicari menjadi huruf kecil
+            if (namaLokasi.includes(characterLowerCase)) {
+              foundData.push(location);
             }
+          }
         }
-    
-        return foundLocations;
+      
+        return foundData;
     }
-    // let x = jeson(foundLocations, null, 2);
-    console.log(JSON.stringify(foundLocations, null, 2));
+ 
       return res.status(200).json({
         status: true,
         message: "success",
@@ -269,7 +269,6 @@ module.exports = {
   },
   getMedia: async (req, res) => {
     let get = req.params.id;
-    console.log(get);
     try {
       let data = fs.readFileSync(path.join(__dirname, "../public/media/" + get + ".json"));
       data = JSON.parse(data);
