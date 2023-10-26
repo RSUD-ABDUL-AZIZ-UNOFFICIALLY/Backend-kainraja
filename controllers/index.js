@@ -233,6 +233,40 @@ module.exports = {
       });
     }
   },
+  getAmbulan: async (req, res) => {
+    try {
+      let data = fs.readFileSync(path.join(__dirname, "../public/tarif/tarifAmbulan.json"));
+      data = JSON.parse(data);
+      const foundLocations = findByNameCharacter(data, req.query.search);
+      function findByNameCharacter(data, character) {
+        const foundLocations = [];
+    
+        for (const item of data) {
+            for (const location of item.lokasi) {
+                const nama = location.nama;
+                if (nama.includes(character)) {
+                    foundLocations.push(location);
+                }
+            }
+        }
+    
+        return foundLocations;
+    }
+    // let x = jeson(foundLocations, null, 2);
+    console.log(JSON.stringify(foundLocations, null, 2));
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: foundLocations
+      });
+    } catch (err) {
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
+  },
   getMedia: async (req, res) => {
     let get = req.params.id;
     console.log(get);
