@@ -21,7 +21,6 @@ async function api(path, method, data) {
       data: data
     };
     let response = await axios(config);
-    // console.log(response);
     return response.data;
   } catch (err) {
     return null;
@@ -258,6 +257,59 @@ module.exports = {
         status: true,
         message: "success",
         data: foundLocations
+      });
+    } catch (err) {
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
+  },
+  getAntrianPoli: async (req, res) => {
+    try {
+      let query = req.query;
+      // get day now
+      let date = new Date();
+      // ubah ke format yyyy-mm-dd
+      date = date.toISOString().slice(0, 10);
+      let data = await api('/api/ralan/antiran/poli?tgl_antrean=' + date + '&kd_poli=' + query.kd_poli, 'GET');
+      let antrians = [];
+      let sudah = 0;
+      let belum = 0;
+      let batal = 0;
+      let total = data.data.length;
+      for (let i of data.data) {
+        if (i.stts == "Sudah") {
+          sudah++;
+        } else if (i.stts == "Belum") {
+          belum++;
+        } else if (i.stts == "Batal") {
+          batal++;
+        }
+        let dataPasien = {}
+        let namaPasien = i.pasien.nm_pasien;
+        let tigaKarakterPertama = namaPasien.substring(0, 5);
+        let sisanya = "x".repeat(namaPasien.length - 5);
+        let pasien = tigaKarakterPertama + sisanya;
+        dataPasien.no_reg = i.no_reg;
+        dataPasien.no_rawat = i.no_rawat;
+        dataPasien.nm_pasien = pasien;
+        dataPasien.status = i.stts;
+        dataPasien.nm_dokter = i.dokter.nm_dokter;
+        dataPasien.kd_poli = i.kd_poli;
+        antrians.push(dataPasien);
+      }
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        status_antrian: {
+          sudah: sudah,
+          belum: belum,
+          batal: batal,
+          total: total
+        },
+        data: antrians,
       });
     } catch (err) {
       return res.status(500).json({
