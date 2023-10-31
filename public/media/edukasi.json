@@ -111,6 +111,72 @@
             "urut": 1
         },
         {
+            "title": "Waspada Demam Berdarah",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737282345-lifletwaspadademamberdarah_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737282345-lifletwaspadademamberdarah_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737324392-lifletwaspadademamberdarah_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Trauma Kepala",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737650286-liflettraumakepala_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737650286-liflettraumakepala_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737718142-liflettraumakepala_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Stroke",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737738550-lifletstroke_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737738550-lifletstroke_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737778447-lifletstroke_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Manajemen Nyeri",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737811916-lifletmanajemennyeri_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737811916-lifletmanajemennyeri_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737864198-lifletmanajemennyeri_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Fisioterapi Dada",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737896330-lifletfisioterapidada_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737896330-lifletfisioterapidada_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737917192-lifletfisioterapidada_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
+            "title": "Diabetes Melitus",
+            "description": "",
+            "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737954357-lifletdiabetesmelitus_page-0001.webp",
+            "video": "",
+            "images": [
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698737954357-lifletdiabetesmelitus_page-0001.webp",
+                "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698738036138-lifletdiabetesmelitus_page-0002.webp"
+            ],
+            "urut": 1
+        },
+        {
             "title": "Pemberian Suplemntasi Gizi",
             "description": "",
             "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695112459314-EDUKASI8lengkap_fix_page-0001.webp",
