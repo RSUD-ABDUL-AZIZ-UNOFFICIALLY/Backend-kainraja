@@ -17,6 +17,8 @@ routes.get('/penunjang/getjnsradiaologi', base.getJnsradiaologi);
 routes.get('/tarif/tindakan', base.getTindakan);
 routes.get('/tarif/ambulan', base.getAmbulan);
 
+routes.get('/antrian/poli', base.getAntrianPoli);
+
 routes.get('/media/:id', base.getMedia);
 routes.get('/maps', base.getMaps);
 
