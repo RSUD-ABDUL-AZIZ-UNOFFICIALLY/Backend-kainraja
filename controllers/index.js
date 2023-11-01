@@ -290,7 +290,7 @@ module.exports = {
         let dataPasien = {}
         let namaPasien = i.pasien.nm_pasien;
         let tigaKarakterPertama = namaPasien.substring(0, 5);
-        let sisanya = "x".repeat(namaPasien.length - 5);
+        let sisanya = "x".repeat(namaPasien.length - 4);
         let pasien = tigaKarakterPertama + sisanya;
         dataPasien.no_reg = i.no_reg;
         dataPasien.no_rawat = i.no_rawat;
@@ -312,6 +312,7 @@ module.exports = {
         data: antrians,
       });
     } catch (err) {
+      console.log(err);
       return res.status(500).json({
         status: false,
         message: "server Error",
