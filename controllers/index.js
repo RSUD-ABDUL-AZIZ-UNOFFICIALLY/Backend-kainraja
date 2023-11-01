@@ -269,10 +269,7 @@ module.exports = {
   getAntrianPoli: async (req, res) => {
     try {
       let query = req.query;
-      // get day now
       let date = new Date();
-      // ubah ke format yyyy-mm-dd
-      date = date.toISOString().slice(0, 10);
       let data = await api('/api/ralan/antiran/poli?tgl_antrean=' + date + '&kd_poli=' + query.kd_poli, 'GET');
       let antrians = [];
       let sudah = 0;
