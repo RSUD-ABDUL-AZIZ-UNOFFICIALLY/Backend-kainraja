@@ -286,12 +286,13 @@ module.exports = {
         }
         let dataPasien = {}
         let namaPasien = i.pasien.nm_pasien;
-        let tigaKarakterPertama = namaPasien.substring(0, 5);
-        let sisanya = "x".repeat(namaPasien.length - 4);
-        let pasien = tigaKarakterPertama + sisanya;
+        // let tigaKarakterPertama = namaPasien.substring(0, 5);
+        // let sisanya = "x".repeat(namaPasien.length - 4);
+        // let pasien = tigaKarakterPertama + sisanya;
         dataPasien.no_reg = i.no_reg;
         dataPasien.no_rawat = i.no_rawat;
-        dataPasien.nm_pasien = pasien;
+        // dataPasien.nm_pasien = pasien;
+        dataPasien.nm_pasien = namaPasien;
         dataPasien.status = i.stts;
         dataPasien.nm_dokter = i.dokter.nm_dokter;
         dataPasien.kd_poli = i.kd_poli;
