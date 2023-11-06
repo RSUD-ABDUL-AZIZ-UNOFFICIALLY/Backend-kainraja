@@ -114,6 +114,40 @@
         {
             "type": "Feature",
             "properties": {
+                "name": "kantin"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            108.97303954800748,
+                            0.8953825821574242
+                        ],
+                        [
+                            108.97310305613024,
+                            0.8953419938885077
+                        ],
+                        [
+                            108.97321980581529,
+                            0.895478322697528
+                        ],
+                        [
+                            108.97315836153086,
+                            0.8955260500463993
+                        ],
+                        [
+                            108.97303954800748,
+                            0.8953825821574242
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": 4
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "name": "ruang farmasi"
             },
             "geometry": {
@@ -619,7 +653,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 20
+            "id": 19
         },
         {
             "type": "Feature",
@@ -653,7 +687,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 21
+            "id": 20
         },
         {
             "type": "Feature",
@@ -687,7 +721,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 22
+            "id": 21
         },
         {
             "type": "Feature",
@@ -721,7 +755,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 23
+            "id": 22
         },
         {
             "type": "Feature",
@@ -759,7 +793,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 24
+            "id": 23
         },
         {
             "type": "Feature",
@@ -793,7 +827,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 25
+            "id": 24
         },
         {
             "type": "Feature",
@@ -825,7 +859,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 26
+            "id": 25
         },
         {
             "type": "Feature",
@@ -859,7 +893,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 27
+            "id": 26
         },
         {
             "type": "Feature",
@@ -893,7 +927,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 28
+            "id": 27
         },
         {
             "type": "Feature",
@@ -927,7 +961,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 29
+            "id": 28
         },
         {
             "type": "Feature",
@@ -961,7 +995,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 30
+            "id": 29
         },
         {
             "type": "Feature",
@@ -995,7 +1029,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 31
+            "id": 30
         },
         {
             "type": "Feature",
@@ -1029,7 +1063,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 32
+            "id": 31
         },
         {
             "type": "Feature",
@@ -1063,7 +1097,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 33
+            "id": 32
         },
         {
             "type": "Feature",
@@ -1097,7 +1131,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 34
+            "id": 33
         },
         {
             "type": "Feature",
@@ -1131,7 +1165,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 35
+            "id": 34
         },
         {
             "type": "Feature",
@@ -1165,7 +1199,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 36
+            "id": 35
         },
         {
             "type": "Feature",
@@ -1199,7 +1233,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 37
+            "id": 36
         },
         {
             "type": "Feature",
@@ -1233,7 +1267,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 38
+            "id": 37
         },
         {
             "type": "Feature",
@@ -1267,7 +1301,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 39
+            "id": 38
         },
         {
             "type": "Feature",
@@ -1301,7 +1335,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 40
+            "id": 39
         },
         {
             "type": "Feature",
@@ -1335,7 +1369,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 41
+            "id": 40
         },
         {
             "type": "Feature",
@@ -1369,7 +1403,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 42
+            "id": 41
         },
         {
             "type": "Feature",
@@ -1407,7 +1441,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 43
+            "id": 42
         },
         {
             "type": "Feature",
@@ -1441,7 +1475,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 44
+            "id": 43
         },
         {
             "type": "Feature",
@@ -1475,7 +1509,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 45
+            "id": 44
         },
         {
             "type": "Feature",
@@ -1509,7 +1543,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 46
+            "id": 45
         },
         {
             "type": "Feature",
@@ -1543,7 +1577,7 @@
                 ],
                 "type": "Polygon"
             },
-            "id": 47
+            "id": 46
         }
     ]
 }
