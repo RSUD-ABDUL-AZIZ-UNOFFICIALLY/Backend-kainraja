@@ -43,6 +43,14 @@
             "urut": 1
         },
         {
+            "title": "Edukasi Cuci tangan",
+            "description": "",
+            "image": "",
+            "video": "https://api.rsudaa.singkawangkota.go.id/api/cdn/video/1699774432691-771549107CUTITANGAN.mp4",
+            "images": [],
+            "urut": 1
+        },
+        {
             "title": "Cek Kesehatan Secara Rutin",
             "description": "",
             "image": "https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1695110803601-Screenshot2023-09-19at15.webp",
