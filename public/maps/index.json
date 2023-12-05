@@ -386,7 +386,7 @@
         {
             "type": "Feature",
             "properties": {
-                "nmae": "ICU"
+                "name": "ICU"
             },
             "geometry": {
                 "coordinates": [
@@ -624,7 +624,7 @@
         {
             "type": "Feature",
             "properties": {
-                "nmae": "UTDRS"
+                "name": "UTDRS"
             },
             "geometry": {
                 "coordinates": [
@@ -726,7 +726,7 @@
         {
             "type": "Feature",
             "properties": {
-                "nmae": "rekam medis"
+                "name": "rekam medis"
             },
             "geometry": {
                 "coordinates": [
@@ -760,7 +760,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name`": "IGD"
+                "name": "IGD"
             },
             "geometry": {
                 "coordinates": [
@@ -798,7 +798,7 @@
         {
             "type": "Feature",
             "properties": {
-                "nmae": "hemodialisa"
+                "name": "hemodialisa"
             },
             "geometry": {
                 "coordinates": [
@@ -831,7 +831,9 @@
         },
         {
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "name": "-"
+            },
             "geometry": {
                 "coordinates": [
                     [
