@@ -18,6 +18,7 @@ routes.get('/tarif/tindakan', base.getTindakan);
 routes.get('/tarif/ambulan', base.getAmbulan);
 
 routes.get('/antrian/poli', base.getAntrianPoli);
+routes.get('/kamar/inap', base.getKamarInap);
 
 routes.get('/media/:id', base.getMedia);
 routes.get('/maps', base.getMaps);

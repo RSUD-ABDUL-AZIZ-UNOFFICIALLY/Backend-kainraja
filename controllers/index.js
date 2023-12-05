@@ -318,6 +318,23 @@ module.exports = {
       });
     }
   },
+  getKamarInap: async (req, res) => {
+    try {
+      let data = await api('/api/ranap/dasboard/belumpulang', 'GET');
+      return res.status(200).json({
+        status: true,
+        message: "success",
+        data: data.data
+      });
+    } catch (err) {
+      console.log(err);
+      return res.status(500).json({
+        status: false,
+        message: "server Error",
+        data: err.message
+      });
+    }
+  },
   getMedia: async (req, res) => {
     let get = req.params.id;
     try {
