@@ -57,8 +57,8 @@
             {
                 "nama": "Selakau",
                 "perkiraan_jarak": 17,
-                "tarif_per_km": 10000,
-                "tarif_total": 170000,
+                "tarif_per_km": 13000,
+                "tarif_total": 211000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -66,8 +66,8 @@
             {
                 "nama": "Pemangkat",
                 "perkiraan_jarak": 35,
-                "tarif_per_km": 10000,
-                "tarif_total": 350000,
+                "tarif_per_km": 13000,
+                "tarif_total": 455000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -75,8 +75,8 @@
             {
                 "nama": "Semparuk",
                 "perkiraan_jarak": 47,
-                "tarif_per_km": 10000,
-                "tarif_total": 470000,
+                "tarif_per_km": 13000,
+                "tarif_total": 611000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -84,8 +84,8 @@
             {
                 "nama": "Tebas",
                 "perkiraan_jarak": 57,
-                "tarif_per_km": 10000,
-                "tarif_total": 570000,
+                "tarif_per_km": 13000,
+                "tarif_total": 741000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -93,8 +93,8 @@
             {
                 "nama": "Sebawi",
                 "perkiraan_jarak": 68,
-                "tarif_per_km": 10000,
-                "tarif_total": 680000,
+                "tarif_per_km": 13000,
+                "tarif_total": 844000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -102,8 +102,8 @@
             {
                 "nama": "Sentebang",
                 "perkiraan_jarak": 73,
-                "tarif_per_km": 10000,
-                "tarif_total": 730000,
+                "tarif_per_km": 13000,
+                "tarif_total": 949000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -111,17 +111,17 @@
             {
                 "nama": "Sambas",
                 "perkiraan_jarak": 80,
-                "tarif_per_km": 10000,
-                "tarif_total": 800000,
+                "tarif_per_km": 13000,
+                "tarif_total": 1040000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
             },
             {
                 "nama": "Subah",
-                "perkiraan_jarak": 0,
-                "tarif_per_km": 0,
-                "tarif_total": 0,
+                "perkiraan_jarak": 90,
+                "tarif_per_km": 13000,
+                "tarif_total": 1170000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -129,8 +129,8 @@
             {
                 "nama": "Sabung",
                 "perkiraan_jarak": 90,
-                "tarif_per_km": 10000,
-                "tarif_total": 900000,
+                "tarif_per_km": 13000,
+                "tarif_total": 1170000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -138,7 +138,7 @@
             {
                 "nama": "Balai Gemuruh",
                 "perkiraan_jarak": 115,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1150000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -147,8 +147,8 @@
             {
                 "nama": "Sepandung",
                 "perkiraan_jarak": 130,
-                "tarif_per_km": 10000,
-                "tarif_total": 1300000,
+                "tarif_per_km": 13000,
+                "tarif_total": 1495000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -156,8 +156,8 @@
             {
                 "nama": "Satai",
                 "perkiraan_jarak": 130,
-                "tarif_per_km": 10000,
-                "tarif_total": 1300000,
+                "tarif_per_km": 13000,
+                "tarif_total": 1690000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -165,7 +165,7 @@
             {
                 "nama": "Teluk Keramat",
                 "perkiraan_jarak": 100,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1000000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -174,7 +174,7 @@
             {
                 "nama": "Galing",
                 "perkiraan_jarak": 112,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1120000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -183,7 +183,7 @@
             {
                 "nama": "Paloh",
                 "perkiraan_jarak": 130,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1300000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -192,7 +192,7 @@
             {
                 "nama": "Samalantan",
                 "perkiraan_jarak": 36,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 360000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -201,7 +201,7 @@
             {
                 "nama": "Monterado",
                 "perkiraan_jarak": 43,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 430000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -210,7 +210,7 @@
             {
                 "nama": "Serukam",
                 "perkiraan_jarak": 49,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 490000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -219,7 +219,7 @@
             {
                 "nama": "Ledo",
                 "perkiraan_jarak": 112,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1120000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -228,7 +228,7 @@
             {
                 "nama": "Sejangkung",
                 "perkiraan_jarak": 90,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 900000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -237,7 +237,7 @@
             {
                 "nama": "Sanggau Ledo",
                 "perkiraan_jarak": 134,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1340000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -246,7 +246,7 @@
             {
                 "nama": "Bengkayang",
                 "perkiraan_jarak": 72,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 720000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -255,7 +255,7 @@
             {
                 "nama": "Seluas",
                 "perkiraan_jarak": 165,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1650000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -264,7 +264,7 @@
             {
                 "nama": "Sei Raya",
                 "perkiraan_jarak": 38,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 380000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -273,7 +273,7 @@
             {
                 "nama": "Sei Duri",
                 "perkiraan_jarak": 57,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 570000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -282,7 +282,7 @@
             {
                 "nama": "Sei Belitung",
                 "perkiraan_jarak": 63,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 630000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -291,7 +291,7 @@
             {
                 "nama": "Mempawah",
                 "perkiraan_jarak": 75,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 750000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -300,7 +300,7 @@
             {
                 "nama": "Sei Pinyuh",
                 "perkiraan_jarak": 98,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 980000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -309,7 +309,7 @@
             {
                 "nama": "Pontianak",
                 "perkiraan_jarak": 153,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1530000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -318,7 +318,7 @@
             {
                 "nama": "Supadio",
                 "perkiraan_jarak": 168,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1680000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -327,7 +327,7 @@
             {
                 "nama": "Darit",
                 "perkiraan_jarak": 112,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 1120000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -336,7 +336,7 @@
             {
                 "nama": "Ngabang",
                 "perkiraan_jarak": 225,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 2250000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -345,7 +345,7 @@
             {
                 "nama": "Sosok",
                 "perkiraan_jarak": 263,
-                "tarif_per_km": 10000,
+                "tarif_per_km": 13000,
                 "tarif_total": 2630000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
@@ -354,8 +354,8 @@
             {
                 "nama": "Sanggau Kapuas",
                 "perkiraan_jarak": 315,
-                "tarif_per_km": 10000,
-                "tarif_total": 3150000,
+                "tarif_per_km": 13000,
+                "tarif_total": 4095000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -363,8 +363,8 @@
             {
                 "nama": "Samuntai",
                 "perkiraan_jarak": 333,
-                "tarif_per_km": 10000,
-                "tarif_total": 3330000,
+                "tarif_per_km": 13000,
+                "tarif_total": 4329000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -372,8 +372,8 @@
             {
                 "nama": "Sekadau",
                 "perkiraan_jarak": 363,
-                "tarif_per_km": 10000,
-                "tarif_total": 3630000,
+                "tarif_per_km": 13000,
+                "tarif_total": 4719000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -381,8 +381,8 @@
             {
                 "nama": "Sintang",
                 "perkiraan_jarak": 453,
-                "tarif_per_km": 10000,
-                "tarif_total": 4530000,
+                "tarif_per_km": 13000,
+                "tarif_total": 5889000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
@@ -390,8 +390,8 @@
             {
                 "nama": "Entikong",
                 "perkiraan_jarak": 353,
-                "tarif_per_km": 10000,
-                "tarif_total": 3530000,
+                "tarif_per_km": 13000,
+                "tarif_total": 4589000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 0
