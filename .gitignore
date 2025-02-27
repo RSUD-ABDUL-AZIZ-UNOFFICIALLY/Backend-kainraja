@@ -1,4 +1,7 @@
-/.env
-/node_modules
-/package-lock.json
-.DS_Store
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
