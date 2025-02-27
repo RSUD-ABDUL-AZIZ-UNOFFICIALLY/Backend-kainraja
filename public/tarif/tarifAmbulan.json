@@ -6,8 +6,8 @@
             {
                 "nama": "Singkawang Barat",
                 "perkiraan_jarak": 8,
-                "tarif_per_km": 10000,
-                "tarif_total": 80000,
+                "tarif_per_km": 13000,
+                "tarif_total": 104000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 80000
@@ -15,8 +15,8 @@
             {
                 "nama": "Singkawang Tengah",
                 "perkiraan_jarak": 8,
-                "tarif_per_km": 10000,
-                "tarif_total": 80000,
+                "tarif_per_km": 13000,
+                "tarif_total": 104000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 80000
@@ -24,26 +24,26 @@
             {
                 "nama": "Singkawang Utara",
                 "perkiraan_jarak": 8,
-                "tarif_per_km": 10000,
-                "tarif_total": 80000,
+                "tarif_per_km": 13000,
+                "tarif_total": 104000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 80000
             },
             {
                 "nama": "Singkawang Timur",
-                "perkiraan_jarak": 8,
-                "tarif_per_km": 10000,
-                "tarif_total": 100000,
+                "perkiraan_jarak": 10,
+                "tarif_per_km": 13000,
+                "tarif_total": 130000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 100000
             },
             {
                 "nama": "Singkawang Selatan",
-                "perkiraan_jarak": 8,
-                "tarif_per_km": 10000,
-                "tarif_total": 80000,
+                "perkiraan_jarak": 10,
+                "tarif_per_km": 13000,
+                "tarif_total": 130000,
                 "jasa_sopir": 0,
                 "jasa_pendamping": 0,
                 "jumlah": 100000
