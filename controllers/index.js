@@ -125,7 +125,7 @@ module.exports = {
         let dataLPKP = await apiLPKP(data.data[i].no_ktp);
         // data.data[i].url = dataLPKP.data.url;
         if (dataLPKP == null) {
-          data.data[i].url = 'https://api.rsudaa.singkawangkota.go.id/api/cdn/image/1698131414993-default-profile.webp';
+          data.data[i].url = 'https://api.spairum.my.id/api/cdn/image/1698131414993-default-profile.webp';
         }else{
           data.data[i].url = dataLPKP.data.url;
         }
